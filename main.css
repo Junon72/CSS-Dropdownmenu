@@ -30,8 +30,15 @@ button {
 }
 .dropdownLink {
     text-decoration: none;
-    
+    text-align: center;
     display: block;
     background-color: #f9f9f9;
-    
+    padding: 10px 5px;
+    color: #4a4a4f;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+
+.dropdownLink:hover {
+    color:  #f9f9f9;
+    background-color: #4a4a4f;
 }
